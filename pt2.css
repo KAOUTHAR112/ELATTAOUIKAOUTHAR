@@ -1,0 +1,218 @@
+		body {
+			background-color: Ivory ;
+		}
+		.titre {
+			font: bold 20pt Vladimir Script;
+			text-align: center;
+
+		}
+
+		.scpt {
+			overflow: hidden;
+			list-style-type: none;
+
+		}
+
+		li,
+		select {
+			display: inline-block;
+			font: 14pt courier new;
+			text-align: center;
+			justify-content: flex-start;
+			margin: 30px;
+			transition: 0.45s ;
+		}
+
+		li:hover {
+			cursor: pointer;
+			transform: translateY(-5px) ;
+		}
+
+		select {
+			background: none;
+			border: none;
+			width: 130px;
+		}
+
+		.titre,
+		.scpt {
+			display: inline-block;
+		}
+
+		.navlibar {
+			text-align: center;
+			border-radius: 30px;
+			align-items: center;
+			justify-content: space-between;
+			display: flex;
+			padding: 5px 40px ;
+		}
+
+		.div2 {
+			background-image: url(paysage21.jpg);
+			text-align: left;
+			height: 650px;
+			background-position: center;
+			margin: 10px;
+			background-size: cover;
+		}
+
+		.div3 {
+			padding: 100px;
+			font: 17px tahoma;
+			color: white;
+		}
+
+		.pre1 {
+			text-align: center;
+			color: brown;
+			font: none 12pt Castellar;
+		}
+
+		.logo {
+			height: 100px;
+			width: 200px;
+			margin-bottom: 50px;
+	
+
+		}
+
+		.div4 {
+			text-align: center;
+		}
+
+		.heigh {
+			max-width: 350px;
+			max-height: 350px;
+
+		}
+
+		.widh {
+			max-width: 480px;
+			max-height: 650px;
+		}
+
+		#div4 {
+			overflow: hidden;
+		}
+
+		.imm {
+			overflow: hidden;
+			text-align: center;
+		}
+
+		.widh1 {
+			max-width: 700px;
+			max-height: 800px;
+
+		}
+
+		.heigh1 {
+			max-width: 410px;
+			max-height: 800px;
+		}
+
+		.widh11 {
+			max-width: 510px;
+			max-height: 850px;
+		}
+
+		.heigh11 {
+			max-width: 350px;
+			max-height: 360px;
+		}
+
+		h3 {
+			text-shadow: 2px 4px 3px rgba(0, 0, 0, 3);
+			color: indigo;
+			font: italic 900 2cm Monotype Corsiva;
+
+
+			text-align: center;
+		}
+
+		.heigh12 {
+			max-width: 500px;
+			max-height: 400px;
+		}
+
+		#abb {
+			margin: 5px;
+			height: 0px;
+			width: 0px;
+			padding: 10px;
+			position: absolute;
+			top: 10px;
+			border-radius: 30px;
+			background: rgba(0, 100, 100);
+			opacity: 0%;
+			scale: 1;
+		}
+
+		#abb1,
+		#abb2 {
+			height: 0px;
+			font-size: 0px;
+		}
+
+		#hid {
+			margin-right: 0px;
+			border-radius: 10px;
+			border: solid 3px white;
+			padding: 2px 20px;
+			position: reletive;
+			top: 10px;
+			text-align: right;
+			background: none;
+		}
+
+		#hid:hover {
+			background-color: red;
+		}
+
+
+
+		.welcome {
+			justify-content: space-between;
+			display: flex;
+			align-items: center;
+			padding: 3px 12px;
+		}
+
+		.live {
+			font-family: vladimir script, serif;
+		}
+
+		.content {
+			justify-content: left;
+			display: flex;
+		}
+
+		.description,
+		.coordonee {
+			padding: 10px;
+			text-align: left;
+		}
+
+		.description {
+			font-size: 15pt;
+			text-align: left;
+			padding: 15px 50px 10px 50px;
+		}
+
+		.descrp::first-letter {
+			color: #bbffff;
+			font-size: 33pt;
+			font-family: serif;
+		}
+
+		.coordonee {
+			width: 250px;
+			font-size: 17pt;
+			padding: 15px 20px 10px 20px;
+			padding-right: 20px;
+		}
+		.myimage {font:italic 20pt Tahoma;
+		color: #EC7063 ;
+		text-align:center;
+		
